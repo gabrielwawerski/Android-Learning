@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Moje Aplikacje</string>
+    <string name="menu_title">Moje Aplikacje</string>
+    <string name="piwnik_name">Piwnik</string>
+    <string name="send_sms_name">Wyślij SMS</string>
+
+
+    <string name="piwnik_tytul">Piwnik</string>
+    <string name="piwnik_opis">Wybierz rodzaj piwa i naciśnij \"Znajdź Piwa!\"</string>
+    <array name="lista_piw">
+        <item>zwykłe</item>
+        <item>smakowe</item>
+        <item>mocne</item>
+    </array>
+    <string name="znajdz_piwa">Znajdź Piwa!</string>
+
+
+    <string name="send_sms_tytul">Wyślij SMSa!</string>
+    <string name="send_sms_opis">Wpisz treść sms\'a i naciśnij \"Wyślij\" aby wybrać odpowiednią aplikację i wysłać wiadomość!</string>
+    <string name="sms_hint">Wpisz tutaj swoją wiadomość&#8230;</string>
+    <string name="sms_sendButton">Wyślij</string>
+    <string name="chooser">Wyślij wiadomość&#8230;</string>
+</resources>
