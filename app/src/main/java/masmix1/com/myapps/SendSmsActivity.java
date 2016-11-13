@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class SendSmsActivity extends AppCompatActivity {
 
@@ -12,6 +13,11 @@ public class SendSmsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_sms);
+
+        TextView displayFromLastActivity = (TextView) findViewById(R.id.display_from_last_activity_sms);
+        Intent intent = getIntent();
+        String textToDisplay = intent.getStringExtra("textToDisplay");
+        displayFromLastActivity.setText(textToDisplay);
     }
 
     public void onSendSms(View view) {

@@ -1,5 +1,6 @@
 package masmix1.com.myapps;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,11 @@ public class PiwnikActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_piwnik);
+
+        TextView display_from_last_activity = (TextView) findViewById(R.id.display_from_last_activity);
+        Intent intent = getIntent();
+        String textToDisplay = intent.getStringExtra("textToDisplay");
+        display_from_last_activity.setText(textToDisplay);
     }
 
     public void onFindBeers (View view) {

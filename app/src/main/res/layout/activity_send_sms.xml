@@ -50,4 +50,12 @@
         android:text="@string/sms_sendButton"
         android:onClick="onSendSms" />
 
+    <TextView
+        android:id="@+id/display_from_last_activity_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp" />
+
 </RelativeLayout>

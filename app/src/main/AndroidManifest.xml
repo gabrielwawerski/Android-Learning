@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PiwnikActivity" />
-        <activity android:name=".SendSmsActivity"></activity>
+        <activity android:name=".SendSmsActivity" />
+        <activity android:name=".ThreadActivity" />
+        <activity android:name=".TimerActivity"></activity>
     </application>
 
 </manifest>

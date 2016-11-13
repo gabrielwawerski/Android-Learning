@@ -22,7 +22,7 @@
 
     <Button
         android:id="@+id/piwnik"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/menu_title"
         android:layout_centerHorizontal="true"
@@ -32,14 +32,33 @@
 
     <Button
         android:id="@+id/send_sms"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/piwnik"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/send_sms_name"
         android:onClick="onClickStartSendSms"
-        />
+        android:layout_width="120dp" />
 
+    <Button
+        android:id="@+id/thread"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/send_sms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/thread_title"
+        android:onClick="onClickStartThread"
+        android:layout_width="120dp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/send_to_next_activity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:hint="@string/text_for_next_activity"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textSize="12sp"-->
+        <!--android:maxLines="1"-->
+        <!--android:maxHeight="12dp"/>-->
 
 </RelativeLayout>
