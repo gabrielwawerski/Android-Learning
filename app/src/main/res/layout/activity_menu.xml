@@ -20,13 +20,25 @@
         android:layout_centerInParent="true"
         android:text="@string/menu_title" />
 
+    <EditText
+        android:id="@+id/send_to_next_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_for_next_activity"
+        android:layout_below="@id/menu_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:maxHeight="12dp"/>
+
     <Button
         android:id="@+id/piwnik"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/menu_title"
+        android:layout_below="@id/send_to_next_activity"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="@string/piwnik_name"
         android:onClick="onClickStartPiwnik" />
 
@@ -35,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/piwnik"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="@string/send_sms_name"
         android:onClick="onClickStartSendSms"
         android:layout_width="120dp" />
@@ -45,20 +57,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/send_sms"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="@string/thread_title"
         android:onClick="onClickStartThread"
         android:layout_width="120dp" />
 
-    <!--<EditText-->
-        <!--android:id="@+id/send_to_next_activity"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:hint="@string/text_for_next_activity"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:textSize="12sp"-->
-        <!--android:maxLines="1"-->
-        <!--android:maxHeight="12dp"/>-->
+    <Button
+        android:id="@+id/timer"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_below="@id/thread"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/timerTitle"
+        android:onClick="onClickStartTimer" />
 
 </RelativeLayout>

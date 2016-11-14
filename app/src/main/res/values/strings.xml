@@ -3,7 +3,7 @@
     <string name="menu_title">Moje Aplikacje</string>
     <string name="piwnik_name">Piwnik</string>
     <string name="send_sms_name">Wyślij SMS</string>
-    <string name="text_for_next_activity">To co tutaj wpiszesz, pojawi się w oknach, które otworzysz.</string>
+    <string name="text_for_next_activity">To co tu wpiszesz, pojawi się w oknach, które otworzysz.</string>
 
 
     <string name="piwnik_tytul">Piwnik</string>
@@ -24,5 +24,11 @@
 
 
     <string name="thread_title">Thread</string>
-    <string name="startLoop">Start pętli</string>
+    <string name="startLoop">Start</string>
+    <string name="stopLoop">Stop</string>
+
+    <string name="buttonStart">Start</string>
+    <string name="buttonPause">Pauza</string>
+    <string name="buttonReset">Reset</string>
+    <string name="timerTitle">Timer</string>
 </resources>

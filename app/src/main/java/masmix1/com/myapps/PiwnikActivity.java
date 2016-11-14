@@ -32,7 +32,7 @@ public class PiwnikActivity extends AppCompatActivity {
 
         StringBuilder sB = new StringBuilder();
         for (String x : wyswietl_wybrane_piwa) {
-            sB.append(x).append("\n");
+            sB.append(x).append(System.lineSeparator());
         }
         wyswietl_piwa.setText(sB);
     }
